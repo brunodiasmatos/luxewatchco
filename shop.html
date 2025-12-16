@@ -1,114 +1,78 @@
-<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Shop | LuxeWatchCo</title>
-  <meta name="description" content="Shop LuxeWatchCo — curated luxury watches." />
-  <link rel="stylesheet" href="assets/styles.css" />
-</head>
-<body>
-<div class="nav">
-  <div class="container nav-inner">
-    <a class="brand" href="index.html" aria-label="LuxeWatchCo home">
-      <span class="mark">LW</span>
-      <span>LuxeWatchCo</span>
-    </a>
-    <div class="nav-links">
-      <a href="shop.html">Shop</a>
-      <a href="authentication.html">Authentication</a>
-      <a href="about.html">About</a>
-      <a href="blog.html">Blog</a>
-      <a href="contact.html" class="badge">Concierge</a>
-    </div>
-  </div>
+<!doctype html><html lang="en"><head>
+<meta charset="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Shop | LuxeWatchCo</title><meta name="description" content="Shop authenticated luxury watches with filters."/>
+<link rel="stylesheet" href="assets/styles.css"/></head><body>
+<div class="nav"><div class="container nav-inner">
+<a class="brand" href="index.html" aria-label="LuxeWatchCo home"><span class="mark">LW</span><span>LuxeWatchCo</span></a>
+<div class="nav-links">
+<a href="shop.html">Shop</a>
+<a href="authentication.html">Authentication</a>
+<a href="about.html">About</a>
+<a href="blog.html">Blog</a>
+<a href="contact.html" class="btn secondary" style="padding:10px 14px">Concierge</a>
+</div></div></div><section class="hero"><div class="container"><div class="card pad"><div class="kicker">Shop</div>
+<h1 style="font-size:44px">Find your next watch</h1>
+<p class="sub">Curated inventory with clear details and buyer protection. Use filters to narrow fast.</p>
+<div class="purpose-line"><span>What we offer:</span> catalog • <span>Why us:</span> verified listings • <span>Next:</span> open a product + inquire</div>
+<div class="cta-row"><a class="btn" href="#catalog">Browse catalog</a><a class="btn secondary" href="contact.html">Ask the Concierge</a></div>
+<div class="badges"><span class="badge">Verified listings</span><span class="badge">Condition notes</span><span class="badge">Fast insured shipping</span></div>
+</div></div></section>
+<section class="section" id="catalog"><div class="container"><div class="notice">Demo catalog for class: “Add to cart” isn’t connected to payments.</div>
+<div class="two" style="margin-top:14px">
+<div class="card tile"><h3>Filters (demo)</h3>
+<div class="two"><div><label>Brand</label><select><option>All</option><option>Rolex</option><option>Omega</option><option>Cartier</option><option>Tudor</option></select></div>
+<div><label>Condition</label><select><option>Any</option><option>New</option><option>Like New</option><option>Pre‑Owned</option><option>Vintage</option></select></div></div>
+<div class="two" style="margin-top:10px"><div><label>Min price</label><input placeholder="$"/></div><div><label>Max price</label><input placeholder="$"/></div></div>
+<div class="two" style="margin-top:10px"><div><label>Case size</label><select><option>Any</option><option>36mm</option><option>40mm</option><option>42mm</option></select></div>
+<div><label>Sort</label><select><option>Newest</option><option>Price low→high</option><option>Price high→low</option></select></div></div>
+<div style="margin-top:12px"><button class="btn secondary" type="button" style="width:100%">Apply (demo)</button></div>
 </div>
-
-<section class="section">
-  <div class="container">
-    <div class="kicker">Shop</div>
-    <h2>Watches</h2>
-    <p>Use filters to narrow your search. (Demo catalog — update products as needed.)</p>
-    <div class="notice">Class project demo: “Add to cart” is not connected to payments.</div>
-
-    <div class="two" style="margin-top:16px">
-      <div class="card tile">
-        <h3>Filters (demo)</h3>
-        <div class="form">
-          <div>
-            <label>Brand</label>
-            <select>
-              <option>All</option><option>Rolex</option><option>Omega</option><option>Cartier</option><option>Tudor</option>
-            </select>
-          </div>
-          <div class="two">
-            <div><label>Min price</label><input placeholder="$" /></div>
-            <div><label>Max price</label><input placeholder="$" /></div>
-          </div>
-          <div class="two">
-            <div><label>Condition</label><select><option>Any</option><option>New</option><option>Like New</option><option>Pre‑Owned</option><option>Vintage</option></select></div>
-            <div><label>Case size</label><select><option>Any</option><option>36mm</option><option>40mm</option><option>42mm</option></select></div>
-          </div>
-          <button class="btn secondary" type="button">Apply (demo)</button>
-        </div>
-      </div>
-
-      <div>
-        <div class="products">
-          <a class="card product" href="product.html">
-            <div class="thumb" aria-hidden="true"></div>
-            <div class="meta">
-              <div class="name">Rolex Submariner Date</div>
-              <div class="small">Ref. 126610LN • 41mm • 2021 • Box & Papers</div>
-              <div class="price">$13,950</div>
-            </div>
-          </a>
-          <a class="card product" href="product.html">
-            <div class="thumb" aria-hidden="true"></div>
-            <div class="meta">
-              <div class="name">Omega Speedmaster Pro</div>
-              <div class="small">Moonwatch • 42mm • 2020 • Excellent</div>
-              <div class="price">$5,250</div>
-            </div>
-          </a>
-          <a class="card product" href="product.html" id="under5k">
-            <div class="thumb" aria-hidden="true"></div>
-            <div class="meta">
-              <div class="name">Tudor Black Bay 58</div>
-              <div class="small">39mm • 2019 • Great value</div>
-              <div class="price">$3,450</div>
-            </div>
-          </a>
-          <a class="card product" href="product.html">
-            <div class="thumb" aria-hidden="true"></div>
-            <div class="meta">
-              <div class="name">Cartier Tank Must</div>
-              <div class="small">Classic dress • 2022 • Like new</div>
-              <div class="price">$3,900</div>
-            </div>
-          </a>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<div class="footer">
-  <div class="container footer-grid">
-    <div>
-      <div class="brand" style="margin-bottom:8px">
-        <span class="mark">LW</span><span>LuxeWatchCo</span>
-      </div>
-      <div>Authenticated luxury watches • Insured shipping • Easy returns</div>
-      <div style="margin-top:8px;opacity:.9">© 2025 LuxeWatchCo (class project)</div>
-    </div>
-    <div class="small-links">
-      <a href="authentication.html">Authentication</a>
-      <a href="shop.html">Shop</a>
-      <a href="contact.html">Contact</a>
-    </div>
-  </div>
-</div>
-<script src="assets/app.js"></script>
-</body>
-</html>
+<div><div class="products">
+<a class="card product" href="product.html"><div class="thumb"><svg width="240" height="240" viewBox="0 0 240 240" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+<defs><linearGradient id="g" x1="40" y1="40" x2="200" y2="200" gradientUnits="userSpaceOnUse">
+<stop stop-color="rgba(214,180,108,.95)"/><stop offset="1" stop-color="rgba(127,215,198,.65)"/></linearGradient></defs>
+<rect x="96" y="18" width="48" height="52" rx="16" fill="rgba(255,255,255,.06)" stroke="rgba(255,255,255,.18)"/>
+<rect x="96" y="170" width="48" height="52" rx="16" fill="rgba(255,255,255,.06)" stroke="rgba(255,255,255,.18)"/>
+<circle cx="120" cy="120" r="70" fill="rgba(255,255,255,.05)" stroke="url(#g)" stroke-width="3"/>
+<circle cx="120" cy="120" r="52" fill="rgba(0,0,0,.15)" stroke="rgba(255,255,255,.12)"/>
+<path d="M120 120 L120 84" stroke="rgba(247,247,251,.9)" stroke-width="4" stroke-linecap="round"/>
+<path d="M120 120 L152 132" stroke="rgba(247,247,251,.75)" stroke-width="4" stroke-linecap="round"/>
+<circle cx="120" cy="120" r="4" fill="rgba(247,247,251,.9)"/></svg></div><div class="meta"><div class="name">Rolex Submariner Date</div><div class="small">Ref. 126610LN • 41mm • 2021 • Box & Papers</div><div class="price">$13,950</div></div></a>
+<a class="card product" href="product.html"><div class="thumb"><svg width="240" height="240" viewBox="0 0 240 240" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+<defs><linearGradient id="g" x1="40" y1="40" x2="200" y2="200" gradientUnits="userSpaceOnUse">
+<stop stop-color="rgba(214,180,108,.95)"/><stop offset="1" stop-color="rgba(127,215,198,.65)"/></linearGradient></defs>
+<rect x="96" y="18" width="48" height="52" rx="16" fill="rgba(255,255,255,.06)" stroke="rgba(255,255,255,.18)"/>
+<rect x="96" y="170" width="48" height="52" rx="16" fill="rgba(255,255,255,.06)" stroke="rgba(255,255,255,.18)"/>
+<circle cx="120" cy="120" r="70" fill="rgba(255,255,255,.05)" stroke="url(#g)" stroke-width="3"/>
+<circle cx="120" cy="120" r="52" fill="rgba(0,0,0,.15)" stroke="rgba(255,255,255,.12)"/>
+<path d="M120 120 L120 84" stroke="rgba(247,247,251,.9)" stroke-width="4" stroke-linecap="round"/>
+<path d="M120 120 L152 132" stroke="rgba(247,247,251,.75)" stroke-width="4" stroke-linecap="round"/>
+<circle cx="120" cy="120" r="4" fill="rgba(247,247,251,.9)"/></svg></div><div class="meta"><div class="name">Omega Speedmaster Pro</div><div class="small">Moonwatch • 42mm • 2020 • Excellent</div><div class="price">$5,250</div></div></a>
+<a class="card product" href="product.html"><div class="thumb"><svg width="240" height="240" viewBox="0 0 240 240" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+<defs><linearGradient id="g" x1="40" y1="40" x2="200" y2="200" gradientUnits="userSpaceOnUse">
+<stop stop-color="rgba(214,180,108,.95)"/><stop offset="1" stop-color="rgba(127,215,198,.65)"/></linearGradient></defs>
+<rect x="96" y="18" width="48" height="52" rx="16" fill="rgba(255,255,255,.06)" stroke="rgba(255,255,255,.18)"/>
+<rect x="96" y="170" width="48" height="52" rx="16" fill="rgba(255,255,255,.06)" stroke="rgba(255,255,255,.18)"/>
+<circle cx="120" cy="120" r="70" fill="rgba(255,255,255,.05)" stroke="url(#g)" stroke-width="3"/>
+<circle cx="120" cy="120" r="52" fill="rgba(0,0,0,.15)" stroke="rgba(255,255,255,.12)"/>
+<path d="M120 120 L120 84" stroke="rgba(247,247,251,.9)" stroke-width="4" stroke-linecap="round"/>
+<path d="M120 120 L152 132" stroke="rgba(247,247,251,.75)" stroke-width="4" stroke-linecap="round"/>
+<circle cx="120" cy="120" r="4" fill="rgba(247,247,251,.9)"/></svg></div><div class="meta"><div class="name">Tudor Black Bay 58</div><div class="small">39mm • 2019 • Great value</div><div class="price">$3,450</div></div></a>
+<a class="card product" href="product.html"><div class="thumb"><svg width="240" height="240" viewBox="0 0 240 240" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+<defs><linearGradient id="g" x1="40" y1="40" x2="200" y2="200" gradientUnits="userSpaceOnUse">
+<stop stop-color="rgba(214,180,108,.95)"/><stop offset="1" stop-color="rgba(127,215,198,.65)"/></linearGradient></defs>
+<rect x="96" y="18" width="48" height="52" rx="16" fill="rgba(255,255,255,.06)" stroke="rgba(255,255,255,.18)"/>
+<rect x="96" y="170" width="48" height="52" rx="16" fill="rgba(255,255,255,.06)" stroke="rgba(255,255,255,.18)"/>
+<circle cx="120" cy="120" r="70" fill="rgba(255,255,255,.05)" stroke="url(#g)" stroke-width="3"/>
+<circle cx="120" cy="120" r="52" fill="rgba(0,0,0,.15)" stroke="rgba(255,255,255,.12)"/>
+<path d="M120 120 L120 84" stroke="rgba(247,247,251,.9)" stroke-width="4" stroke-linecap="round"/>
+<path d="M120 120 L152 132" stroke="rgba(247,247,251,.75)" stroke-width="4" stroke-linecap="round"/>
+<circle cx="120" cy="120" r="4" fill="rgba(247,247,251,.9)"/></svg></div><div class="meta"><div class="name">Cartier Tank Must</div><div class="small">Dress • 2022 • Like new</div><div class="price">$3,900</div></div></a>
+</div></div></div></div></section><div class="footer"><div class="container footer-grid">
+<div><div class="brand" style="margin-bottom:8px"><span class="mark">LW</span><span>LuxeWatchCo</span></div>
+<div>Authenticated luxury watches • Insured shipping • Easy returns</div>
+<div style="margin-top:8px;opacity:.9">© 2025 LuxeWatchCo (class project)</div></div>
+<div class="small-links"><a href="authentication.html">Authentication</a><a href="shop.html">Shop</a><a href="contact.html">Contact</a></div>
+</div></div>
+<div class="sticky-cta"><div class="container"><a class="btn" href="shop.html">Shop</a><a class="btn secondary" href="contact.html">Concierge</a></div></div>
+<script src="assets/app.js"></script></body></html>
